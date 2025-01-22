@@ -8,7 +8,7 @@ def main():
     enhanced_jravan_to_json(
         "./data/拡張フォーマット.xlsx",
         "フォーマット4901",
-        "./data/recordFormat2.json"
+        "./data/recordFormat.json"
     )
 
 
