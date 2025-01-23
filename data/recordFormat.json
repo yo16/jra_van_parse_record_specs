@@ -509,7 +509,7 @@
                 "padding_character": "",
                 "sub_columns_info": {
                     "repeats": 300,
-                    "repat_item_handling": "別テーブル",
+                    "repeat_item_handling": "別テーブル",
                     "sub_columns": [
                         {
                             "seq": 37,
@@ -1222,7 +1222,7 @@
                 "comment": "単位:百円　1着～5着の本賞金　5着3同着まで考慮し繰返し7回",
                 "sub_columns_info": {
                     "repeats": 7,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 40,
@@ -1254,7 +1254,7 @@
                 "comment": "単位:百円　同着により本賞金の分配が変更された場合のみ変更前の値を設定",
                 "sub_columns_info": {
                     "repeats": 5,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 41,
@@ -1286,7 +1286,7 @@
                 "comment": "単位:百円　1着～3着の付加賞金　3着3同着まで考慮し繰返し5回",
                 "sub_columns_info": {
                     "repeats": 5,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 42,
@@ -1318,7 +1318,7 @@
                 "comment": "単位:百円　同着により付加賞金の分配が変更された場合のみ変更前の値を設定",
                 "sub_columns_info": {
                     "repeats": 3,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 43,
@@ -1462,7 +1462,7 @@
                 "comment": "99.9秒 平地競走のみ設定\n1ハロン(200メートル)毎地点での先頭馬ラップタイム 距離が1ハロンで割りきれないレースについては最初の1ハロン目に距離を200メートルで割ったあまりの距離のラップタイムを設定",
                 "sub_columns_info": {
                     "repeats": 25,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 52,
@@ -1581,7 +1581,7 @@
                 "padding_character": "",
                 "sub_columns_info": {
                     "repeats": 4,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 58,
@@ -2436,7 +2436,7 @@
                 "comment": "同着を考慮して繰返し3回\n自身が1着の場合は2着馬を設定",
                 "sub_columns_info": {
                     "repeats": 3,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 60,
@@ -3079,7 +3079,7 @@
                 "comment": "（0:返還なし 1:返還あり）　発売後取消しとなり返還対象となった馬番のエリアに \"1\" を設定\n（例）5番取消しの場合 0000100000000000000000000000",
                 "sub_columns_info": {
                     "repeats": 28,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 39,
@@ -3111,7 +3111,7 @@
                 "comment": "（0:返還なし 1:返還あり）　発売後取消しとなり返還対象となった枠番のエリアに \"1\" を設定\n（例）10頭だての5番取消しの場合、5枠は5番のみのため5枠はなくなる 00001000",
                 "sub_columns_info": {
                     "repeats": 8,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 40,
@@ -3143,7 +3143,7 @@
                 "comment": "（0:返還なし 1:返還あり）　発売後取消しとなり返還対象となった枠番のエリアに \"1\" を設定\n（例）10頭だての8番取消しの場合、7枠は7番、8番の登録があるため7枠は取消しにならない\n　　　ただし7-7は取消しになるので同枠のみ取り消しとなる 00000010",
                 "sub_columns_info": {
                     "repeats": 8,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 41,
@@ -3175,7 +3175,7 @@
                 "comment": "3同着まで考慮し繰返し3回",
                 "sub_columns_info": {
                     "repeats": 3,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 42,
@@ -3237,7 +3237,7 @@
                 "comment": "3同着まで考慮し繰返し5回",
                 "sub_columns_info": {
                     "repeats": 5,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 43,
@@ -3299,7 +3299,7 @@
                 "comment": "3同着まで考慮し繰返し3回",
                 "sub_columns_info": {
                     "repeats": 3,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 44,
@@ -3361,7 +3361,7 @@
                 "comment": "3同着まで考慮し繰返し3回",
                 "sub_columns_info": {
                     "repeats": 3,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 45,
@@ -3423,7 +3423,7 @@
                 "comment": "3同着まで考慮し繰返し7回",
                 "sub_columns_info": {
                     "repeats": 7,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 46,
@@ -3484,7 +3484,7 @@
                 "padding_character": "",
                 "sub_columns_info": {
                     "repeats": 3,
-                    "repat_item_handling": "",
+                    "repeat_item_handling": "",
                     "sub_columns": []
                 }
             },
@@ -3500,7 +3500,7 @@
                 "comment": "3同着まで考慮し繰返し6回",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 48,
@@ -3562,7 +3562,7 @@
                 "comment": "3同着まで考慮し繰返し3回",
                 "sub_columns_info": {
                     "repeats": 3,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 49,
@@ -3624,7 +3624,7 @@
                 "comment": "3同着まで考慮し繰返し6回",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 50,
@@ -3949,7 +3949,7 @@
                 "comment": "（0:返還なし 1:返還あり）　発売後取消しとなり返還対象となった馬番のエリアに \"1\" を設定\n（例）5番取消しの場合 0000100000000000000000000000",
                 "sub_columns_info": {
                     "repeats": 28,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 20,
@@ -3981,7 +3981,7 @@
                 "comment": "（0:返還なし 1:返還あり）　発売後取消しとなり返還対象となった枠番のエリアに \"1\" を設定\n（例）10頭だての5番取消しの場合、5枠は5番のみのため5枠はなくなる 00001000",
                 "sub_columns_info": {
                     "repeats": 8,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 21,
@@ -4013,7 +4013,7 @@
                 "comment": "（0:返還なし 1:返還あり）　発売後取消しとなり返還対象となった枠番のエリアに \"1\" を設定\n（例）10頭だての8番取消しの場合、7枠は7番、8番の登録があるため7枠は取消しにならない\n　　　ただし7-7は取消しになるので同枠のみ取り消しとなる 00000010",
                 "sub_columns_info": {
                     "repeats": 8,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 22,
@@ -4045,7 +4045,7 @@
                 "comment": "28頭立てまで考慮し繰返し28回　馬番昇順01～28",
                 "sub_columns_info": {
                     "repeats": 28,
-                    "repat_item_handling": "別テーブル",
+                    "repeat_item_handling": "別テーブル",
                     "sub_columns": [
                         {
                             "seq": 23,
@@ -4107,7 +4107,7 @@
                 "comment": "28頭立てまで考慮し繰返し28回　馬番昇順01～28",
                 "sub_columns_info": {
                     "repeats": 28,
-                    "repat_item_handling": "別テーブル",
+                    "repeat_item_handling": "別テーブル",
                     "sub_columns": [
                         {
                             "seq": 24,
@@ -4169,7 +4169,7 @@
                 "comment": "組番昇順　1-1～8-8",
                 "sub_columns_info": {
                     "repeats": 36,
-                    "repat_item_handling": "別テーブル",
+                    "repeat_item_handling": "別テーブル",
                     "sub_columns": [
                         {
                             "seq": 25,
@@ -4231,7 +4231,7 @@
                 "comment": "組番昇順　01-02～17-18",
                 "sub_columns_info": {
                     "repeats": 153,
-                    "repat_item_handling": "別テーブル",
+                    "repeat_item_handling": "別テーブル",
                     "sub_columns": [
                         {
                             "seq": 26,
@@ -4293,7 +4293,7 @@
                 "comment": "組番昇順　01-02～17-18",
                 "sub_columns_info": {
                     "repeats": 153,
-                    "repat_item_handling": "別テーブル",
+                    "repeat_item_handling": "別テーブル",
                     "sub_columns": [
                         {
                             "seq": 27,
@@ -4355,7 +4355,7 @@
                 "comment": "組番昇順　01-02～18-17",
                 "sub_columns_info": {
                     "repeats": 306,
-                    "repat_item_handling": "別テーブル",
+                    "repeat_item_handling": "別テーブル",
                     "sub_columns": [
                         {
                             "seq": 28,
@@ -4417,7 +4417,7 @@
                 "comment": "組番昇順　01-02-03～16-17-18",
                 "sub_columns_info": {
                     "repeats": 816,
-                    "repat_item_handling": "別テーブル",
+                    "repeat_item_handling": "別テーブル",
                     "sub_columns": [
                         {
                             "seq": 29,
@@ -4840,7 +4840,7 @@
                 "comment": "（0:返還なし 1:返還あり）　発売後取消しとなり返還対象となった馬番のエリアに \"1\" を設定\n（例）5番取消しの場合 000010000000000000",
                 "sub_columns_info": {
                     "repeats": 18,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 13,
@@ -4872,7 +4872,7 @@
                 "comment": "組番昇順　01-02-03～18-17-16",
                 "sub_columns_info": {
                     "repeats": 4896,
-                    "repat_item_handling": "別テーブル",
+                    "repeat_item_handling": "別テーブル",
                     "sub_columns": [
                         {
                             "seq": 14,
@@ -5183,7 +5183,7 @@
                 "comment": "28頭立てまで考慮し繰返し28回　馬番昇順01～28",
                 "sub_columns_info": {
                     "repeats": 28,
-                    "repat_item_handling": "別テーブル",
+                    "repeat_item_handling": "別テーブル",
                     "sub_columns": [
                         {
                             "seq": 17,
@@ -5245,7 +5245,7 @@
                 "comment": "28頭立てまで考慮し繰返し28回　馬番昇順01～28",
                 "sub_columns_info": {
                     "repeats": 28,
-                    "repat_item_handling": "別テーブル",
+                    "repeat_item_handling": "別テーブル",
                     "sub_columns": [
                         {
                             "seq": 18,
@@ -5322,7 +5322,7 @@
                 "comment": "組番昇順　1-1～8-8",
                 "sub_columns_info": {
                     "repeats": 36,
-                    "repat_item_handling": "別テーブル",
+                    "repeat_item_handling": "別テーブル",
                     "sub_columns": [
                         {
                             "seq": 19,
@@ -5605,7 +5605,7 @@
                 "comment": "組番昇順　01-02～17-18",
                 "sub_columns_info": {
                     "repeats": 153,
-                    "repat_item_handling": "別テーブル",
+                    "repeat_item_handling": "別テーブル",
                     "sub_columns": [
                         {
                             "seq": 14,
@@ -5860,7 +5860,7 @@
                 "comment": "組番昇順　01-02～17-18",
                 "sub_columns_info": {
                     "repeats": 153,
-                    "repat_item_handling": "別テーブル",
+                    "repeat_item_handling": "別テーブル",
                     "sub_columns": [
                         {
                             "seq": 14,
@@ -6136,7 +6136,7 @@
                 "comment": "組番昇順　01-02～18-17",
                 "sub_columns_info": {
                     "repeats": 306,
-                    "repat_item_handling": "別テーブル",
+                    "repeat_item_handling": "別テーブル",
                     "sub_columns": [
                         {
                             "seq": 14,
@@ -6394,7 +6394,7 @@
                 "comment": "組番昇順　01-02-03～16-17-18",
                 "sub_columns_info": {
                     "repeats": 816,
-                    "repat_item_handling": "別テーブル",
+                    "repeat_item_handling": "別テーブル",
                     "sub_columns": [
                         {
                             "seq": 14,
@@ -6652,7 +6652,7 @@
                 "comment": "組番昇順　01-02-03～18-17-16",
                 "sub_columns_info": {
                     "repeats": 4896,
-                    "repat_item_handling": "別テーブル",
+                    "repeat_item_handling": "別テーブル",
                     "sub_columns": [
                         {
                             "seq": 14,
@@ -6952,7 +6952,7 @@
                 "comment": "父･母･父父･父母･母父･母母･父父父･父父母･父母父･父母母･母父父･母父母･母母父･母母母の順に設定",
                 "sub_columns_info": {
                     "repeats": 14,
-                    "repat_item_handling": "別テーブル",
+                    "repeat_item_handling": "別テーブル",
                     "sub_columns": [
                         {
                             "seq": 18,
@@ -7152,7 +7152,7 @@
                 "comment": "1着～5着及び着外(6着以下)の回数（中央＋地方＋海外)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 34,
@@ -7184,7 +7184,7 @@
                 "comment": "1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 35,
@@ -7216,7 +7216,7 @@
                 "comment": "芝・直線コースでの1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 36,
@@ -7248,7 +7248,7 @@
                 "comment": "芝・右回りコースでの1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 37,
@@ -7280,7 +7280,7 @@
                 "comment": "芝・左回りコースでの1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 38,
@@ -7312,7 +7312,7 @@
                 "comment": "ダート・直線コースでの1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 39,
@@ -7344,7 +7344,7 @@
                 "comment": "ダート・右回りコースでの1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 40,
@@ -7376,7 +7376,7 @@
                 "comment": "ダート・左回りコースでの1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 41,
@@ -7408,7 +7408,7 @@
                 "comment": "障害レースでの1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 42,
@@ -7440,7 +7440,7 @@
                 "comment": "芝・良馬場での1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 43,
@@ -7472,7 +7472,7 @@
                 "comment": "芝・稍重馬場での1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 44,
@@ -7504,7 +7504,7 @@
                 "comment": "芝・重馬場での1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 45,
@@ -7536,7 +7536,7 @@
                 "comment": "芝・不良馬場での1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 46,
@@ -7568,7 +7568,7 @@
                 "comment": "ダート・良馬場での1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 47,
@@ -7600,7 +7600,7 @@
                 "comment": "ダート・稍重馬場での1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 48,
@@ -7632,7 +7632,7 @@
                 "comment": "ダート・重馬場での1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 49,
@@ -7664,7 +7664,7 @@
                 "comment": "ダート・不良馬場での1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 50,
@@ -7696,7 +7696,7 @@
                 "comment": "障害レース・良馬場での1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 51,
@@ -7728,7 +7728,7 @@
                 "comment": "障害レース・稍重馬場での1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 52,
@@ -7760,7 +7760,7 @@
                 "comment": "障害レース・重馬場での1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 53,
@@ -7792,7 +7792,7 @@
                 "comment": "障害レース・不良馬場での1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 54,
@@ -7824,7 +7824,7 @@
                 "comment": "芝･1600M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 55,
@@ -7856,7 +7856,7 @@
                 "comment": "芝･1601Ｍ以上2200M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 56,
@@ -7888,7 +7888,7 @@
                 "comment": "芝･2201M以上での1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 57,
@@ -7920,7 +7920,7 @@
                 "comment": "ダート･1600M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 58,
@@ -7952,7 +7952,7 @@
                 "comment": "ダート･1601Ｍ以上2200M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 59,
@@ -7984,7 +7984,7 @@
                 "comment": "ダート･2201M以上での1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 60,
@@ -8016,7 +8016,7 @@
                 "comment": "逃げ回数、先行回数、差し回数、追込回数を設定\n過去出走レースの脚質を判定しカウントしたもの(中央レースのみ)",
                 "sub_columns_info": {
                     "repeats": 4,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 61,
@@ -8310,7 +8310,7 @@
                 "comment": "平地初騎乗・障害初騎乗の順に設定",
                 "sub_columns_info": {
                     "repeats": 2,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "repeat_suffix_rule": [
                         "flat",
                         "obstacle"
@@ -8405,7 +8405,7 @@
                 "comment": "平地初騎乗・障害初騎乗の順に設定",
                 "sub_columns_info": {
                     "repeats": 2,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "repeat_suffix_rule": [
                         "flat",
                         "obstacle"
@@ -8471,7 +8471,7 @@
                 "comment": "直近の重賞勝利から順に設定",
                 "sub_columns_info": {
                     "repeats": 3,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 23,
@@ -8608,7 +8608,7 @@
                 "comment": "現役騎手については本年・前年・累計の順に設定\n引退騎手については引退年、引退前年・累計の順に設定",
                 "sub_columns_info": {
                     "repeats": 3,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "repeat_suffix_rule": [
                         "current",
                         "previous",
@@ -8703,7 +8703,7 @@
                             "comment": "1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 24,
@@ -8736,7 +8736,7 @@
                             "comment": "1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 24,
@@ -8769,7 +8769,7 @@
                             "comment": "札幌競馬場での1着～5着及び着外(6着以下)の回数（中央のみ）",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 24,
@@ -8802,7 +8802,7 @@
                             "comment": "札幌競馬場での1着～5着及び着外(6着以下)の回数（中央のみ）",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 24,
@@ -8835,7 +8835,7 @@
                             "comment": "函館競馬場での1着～5着及び着外(6着以下)の回数（中央のみ）",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 24,
@@ -8868,7 +8868,7 @@
                             "comment": "函館競馬場での1着～5着及び着外(6着以下)の回数（中央のみ）",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 24,
@@ -8901,7 +8901,7 @@
                             "comment": "福島競馬場での1着～5着及び着外(6着以下)の回数（中央のみ）",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 24,
@@ -8934,7 +8934,7 @@
                             "comment": "福島競馬場での1着～5着及び着外(6着以下)の回数（中央のみ）",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 24,
@@ -8967,7 +8967,7 @@
                             "comment": "新潟競馬場での1着～5着及び着外(6着以下)の回数（中央のみ）",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 24,
@@ -9000,7 +9000,7 @@
                             "comment": "新潟競馬場での1着～5着及び着外(6着以下)の回数（中央のみ）",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 24,
@@ -9033,7 +9033,7 @@
                             "comment": "東京競馬場での1着～5着及び着外(6着以下)の回数（中央のみ）",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 24,
@@ -9066,7 +9066,7 @@
                             "comment": "東京競馬場での1着～5着及び着外(6着以下)の回数（中央のみ）",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 24,
@@ -9099,7 +9099,7 @@
                             "comment": "中山競馬場での1着～5着及び着外(6着以下)の回数（中央のみ）",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 24,
@@ -9132,7 +9132,7 @@
                             "comment": "中山競馬場での1着～5着及び着外(6着以下)の回数（中央のみ）",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 24,
@@ -9165,7 +9165,7 @@
                             "comment": "中京競馬場での1着～5着及び着外(6着以下)の回数（中央のみ）",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 24,
@@ -9198,7 +9198,7 @@
                             "comment": "中京競馬場での1着～5着及び着外(6着以下)の回数（中央のみ）",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 24,
@@ -9231,7 +9231,7 @@
                             "comment": "京都競馬場での1着～5着及び着外(6着以下)の回数（中央のみ）",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 24,
@@ -9264,7 +9264,7 @@
                             "comment": "京都競馬場での1着～5着及び着外(6着以下)の回数（中央のみ）",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 24,
@@ -9297,7 +9297,7 @@
                             "comment": "阪神競馬場での1着～5着及び着外(6着以下)の回数（中央のみ）",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 24,
@@ -9330,7 +9330,7 @@
                             "comment": "阪神競馬場での1着～5着及び着外(6着以下)の回数（中央のみ）",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 24,
@@ -9363,7 +9363,7 @@
                             "comment": "小倉競馬場での1着～5着及び着外(6着以下)の回数（中央のみ）",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 24,
@@ -9396,7 +9396,7 @@
                             "comment": "小倉競馬場での1着～5着及び着外(6着以下)の回数（中央のみ）",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 24,
@@ -9429,7 +9429,7 @@
                             "comment": "芝･1600M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 24,
@@ -9462,7 +9462,7 @@
                             "comment": "芝･1601Ｍ以上2200M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 24,
@@ -9495,7 +9495,7 @@
                             "comment": "芝･2201M以上での1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 24,
@@ -9528,7 +9528,7 @@
                             "comment": "ダート･1600M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 24,
@@ -9561,7 +9561,7 @@
                             "comment": "ダート･1601Ｍ以上2200M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 24,
@@ -9594,7 +9594,7 @@
                             "comment": "ダート･2201M以上での1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 24,
@@ -9835,7 +9835,7 @@
                 "comment": "直近の重賞勝利から順に設定",
                 "sub_columns_info": {
                     "repeats": 3,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 16,
@@ -9972,7 +9972,7 @@
                 "comment": "現役調教師については本年・前年・累計の順に設定\n引退調教師については引退年、引退前年・累計の順に設定",
                 "sub_columns_info": {
                     "repeats": 3,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "repeat_suffix_rule": [
                         "current",
                         "previous",
@@ -10067,7 +10067,7 @@
                             "comment": "1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 17,
@@ -10100,7 +10100,7 @@
                             "comment": "1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 17,
@@ -10133,7 +10133,7 @@
                             "comment": "札幌競馬場での1着～5着及び着外(6着以下)の回数（中央のみ）",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 17,
@@ -10166,7 +10166,7 @@
                             "comment": "札幌競馬場での1着～5着及び着外(6着以下)の回数（中央のみ）",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 17,
@@ -10199,7 +10199,7 @@
                             "comment": "函館競馬場での1着～5着及び着外(6着以下)の回数（中央のみ）",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 17,
@@ -10232,7 +10232,7 @@
                             "comment": "函館競馬場での1着～5着及び着外(6着以下)の回数（中央のみ）",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 17,
@@ -10265,7 +10265,7 @@
                             "comment": "福島競馬場での1着～5着及び着外(6着以下)の回数（中央のみ）",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 17,
@@ -10298,7 +10298,7 @@
                             "comment": "福島競馬場での1着～5着及び着外(6着以下)の回数（中央のみ）",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 17,
@@ -10331,7 +10331,7 @@
                             "comment": "新潟競馬場での1着～5着及び着外(6着以下)の回数（中央のみ）",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 17,
@@ -10364,7 +10364,7 @@
                             "comment": "新潟競馬場での1着～5着及び着外(6着以下)の回数（中央のみ）",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 17,
@@ -10397,7 +10397,7 @@
                             "comment": "東京競馬場での1着～5着及び着外(6着以下)の回数（中央のみ）",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 17,
@@ -10430,7 +10430,7 @@
                             "comment": "東京競馬場での1着～5着及び着外(6着以下)の回数（中央のみ）",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 17,
@@ -10463,7 +10463,7 @@
                             "comment": "中山競馬場での1着～5着及び着外(6着以下)の回数（中央のみ）",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 17,
@@ -10496,7 +10496,7 @@
                             "comment": "中山競馬場での1着～5着及び着外(6着以下)の回数（中央のみ）",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 17,
@@ -10529,7 +10529,7 @@
                             "comment": "中京競馬場での1着～5着及び着外(6着以下)の回数（中央のみ）",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 17,
@@ -10562,7 +10562,7 @@
                             "comment": "中京競馬場での1着～5着及び着外(6着以下)の回数（中央のみ）",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 17,
@@ -10595,7 +10595,7 @@
                             "comment": "京都競馬場での1着～5着及び着外(6着以下)の回数（中央のみ）",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 17,
@@ -10628,7 +10628,7 @@
                             "comment": "京都競馬場での1着～5着及び着外(6着以下)の回数（中央のみ）",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 17,
@@ -10661,7 +10661,7 @@
                             "comment": "阪神競馬場での1着～5着及び着外(6着以下)の回数（中央のみ）",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 17,
@@ -10694,7 +10694,7 @@
                             "comment": "阪神競馬場での1着～5着及び着外(6着以下)の回数（中央のみ）",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 17,
@@ -10727,7 +10727,7 @@
                             "comment": "小倉競馬場での1着～5着及び着外(6着以下)の回数（中央のみ）",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 17,
@@ -10760,7 +10760,7 @@
                             "comment": "小倉競馬場での1着～5着及び着外(6着以下)の回数（中央のみ）",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 17,
@@ -10793,7 +10793,7 @@
                             "comment": "芝･1600M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 17,
@@ -10826,7 +10826,7 @@
                             "comment": "芝･1601Ｍ以上2200M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 17,
@@ -10859,7 +10859,7 @@
                             "comment": "芝･2201M以上での1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 17,
@@ -10892,7 +10892,7 @@
                             "comment": "ダート･1600M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 17,
@@ -10925,7 +10925,7 @@
                             "comment": "ダート･1601Ｍ以上2200M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 17,
@@ -10958,7 +10958,7 @@
                             "comment": "ダート･2201M以上での1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 17,
@@ -11115,7 +11115,7 @@
                 "comment": "本年・累計の順に設定",
                 "sub_columns_info": {
                     "repeats": 2,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "repeat_suffix_rule": [
                         "current",
                         "cumulative"
@@ -11179,7 +11179,7 @@
                             "comment": "1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 10,
@@ -11336,7 +11336,7 @@
                 "comment": "本年・累計の順に設定",
                 "sub_columns_info": {
                     "repeats": 2,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "repeat_suffix_rule": [
                         "current",
                         "cumulative"
@@ -11400,7 +11400,7 @@
                             "comment": "1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 10,
@@ -12054,7 +12054,7 @@
                 "comment": "1着～5着及び着外(6着以下)の回数（中央＋地方＋海外)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 18,
@@ -12086,7 +12086,7 @@
                 "comment": "1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 19,
@@ -12118,7 +12118,7 @@
                 "comment": "芝・直線コースでの1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 20,
@@ -12150,7 +12150,7 @@
                 "comment": "芝・右回りコースでの1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 21,
@@ -12182,7 +12182,7 @@
                 "comment": "芝・左回りコースでの1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 22,
@@ -12214,7 +12214,7 @@
                 "comment": "ダート・直線コースでの1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 23,
@@ -12246,7 +12246,7 @@
                 "comment": "ダート・右回りコースでの1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 24,
@@ -12278,7 +12278,7 @@
                 "comment": "ダート・左回りコースでの1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 25,
@@ -12310,7 +12310,7 @@
                 "comment": "障害レースでの1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 26,
@@ -12342,7 +12342,7 @@
                 "comment": "芝・良馬場での1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 27,
@@ -12374,7 +12374,7 @@
                 "comment": "芝・稍重馬場での1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 28,
@@ -12406,7 +12406,7 @@
                 "comment": "芝・重馬場での1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 29,
@@ -12438,7 +12438,7 @@
                 "comment": "芝・不良馬場での1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 30,
@@ -12470,7 +12470,7 @@
                 "comment": "ダート・良馬場での1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 31,
@@ -12502,7 +12502,7 @@
                 "comment": "ダート・稍重馬場での1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 32,
@@ -12534,7 +12534,7 @@
                 "comment": "ダート・重馬場での1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 33,
@@ -12566,7 +12566,7 @@
                 "comment": "ダート・不良馬場での1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 34,
@@ -12598,7 +12598,7 @@
                 "comment": "障害レース・良馬場での1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 35,
@@ -12630,7 +12630,7 @@
                 "comment": "障害レース・稍重馬場での1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 36,
@@ -12662,7 +12662,7 @@
                 "comment": "障害レース・重馬場での1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 37,
@@ -12694,7 +12694,7 @@
                 "comment": "障害レース・不良馬場での1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 38,
@@ -12726,7 +12726,7 @@
                 "comment": "芝･1200M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 39,
@@ -12758,7 +12758,7 @@
                 "comment": "芝･1201Ｍ以上1400M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 40,
@@ -12790,7 +12790,7 @@
                 "comment": "芝･1401Ｍ以上1600M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 41,
@@ -12822,7 +12822,7 @@
                 "comment": "芝･1601Ｍ以上1800M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 42,
@@ -12854,7 +12854,7 @@
                 "comment": "芝･1801Ｍ以上2000M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 43,
@@ -12886,7 +12886,7 @@
                 "comment": "芝･2001Ｍ以上2200M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 44,
@@ -12918,7 +12918,7 @@
                 "comment": "芝･2201Ｍ以上2400M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 45,
@@ -12950,7 +12950,7 @@
                 "comment": "芝･2401Ｍ以上2800M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 46,
@@ -12982,7 +12982,7 @@
                 "comment": "芝･2801Ｍ以上での1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 47,
@@ -13014,7 +13014,7 @@
                 "comment": "ダート･1200M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 48,
@@ -13046,7 +13046,7 @@
                 "comment": "ダート･1201Ｍ以上1400M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 49,
@@ -13078,7 +13078,7 @@
                 "comment": "ダート･1401Ｍ以上1600M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 50,
@@ -13110,7 +13110,7 @@
                 "comment": "ダート･1601Ｍ以上1800M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 51,
@@ -13142,7 +13142,7 @@
                 "comment": "ダート･1801Ｍ以上2000M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 52,
@@ -13174,7 +13174,7 @@
                 "comment": "ダート･2001Ｍ以上2200M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 53,
@@ -13206,7 +13206,7 @@
                 "comment": "ダート･2201Ｍ以上2400M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 54,
@@ -13238,7 +13238,7 @@
                 "comment": "ダート･2401Ｍ以上2800M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 55,
@@ -13270,7 +13270,7 @@
                 "comment": "ダート･2801Ｍ以上での1着～5着及び着外(6着以下)の回数（中央のみ)",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 56,
@@ -13302,7 +13302,7 @@
                 "comment": "札幌・芝での1着～5着及び着外(6着以下)の回数",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 57,
@@ -13334,7 +13334,7 @@
                 "comment": "函館・芝での1着～5着及び着外(6着以下)の回数",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 58,
@@ -13366,7 +13366,7 @@
                 "comment": "福島・芝での1着～5着及び着外(6着以下)の回数",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 59,
@@ -13398,7 +13398,7 @@
                 "comment": "新潟・芝での1着～5着及び着外(6着以下)の回数",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 60,
@@ -13430,7 +13430,7 @@
                 "comment": "東京・芝での1着～5着及び着外(6着以下)の回数",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 61,
@@ -13462,7 +13462,7 @@
                 "comment": "中山・芝での1着～5着及び着外(6着以下)の回数",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 62,
@@ -13494,7 +13494,7 @@
                 "comment": "中京・芝での1着～5着及び着外(6着以下)の回数",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 63,
@@ -13526,7 +13526,7 @@
                 "comment": "京都・芝での1着～5着及び着外(6着以下)の回数",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 64,
@@ -13558,7 +13558,7 @@
                 "comment": "阪神・芝での1着～5着及び着外(6着以下)の回数",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 65,
@@ -13590,7 +13590,7 @@
                 "comment": "小倉・芝での1着～5着及び着外(6着以下)の回数",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 66,
@@ -13622,7 +13622,7 @@
                 "comment": "札幌・ダートでの1着～5着及び着外(6着以下)の回数",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 67,
@@ -13654,7 +13654,7 @@
                 "comment": "函館・ダートでの1着～5着及び着外(6着以下)の回数",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 68,
@@ -13686,7 +13686,7 @@
                 "comment": "福島・ダートでの1着～5着及び着外(6着以下)の回数",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 69,
@@ -13718,7 +13718,7 @@
                 "comment": "新潟・ダートでの1着～5着及び着外(6着以下)の回数",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 70,
@@ -13750,7 +13750,7 @@
                 "comment": "東京・ダートでの1着～5着及び着外(6着以下)の回数",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 71,
@@ -13782,7 +13782,7 @@
                 "comment": "中山・ダートでの1着～5着及び着外(6着以下)の回数",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 72,
@@ -13814,7 +13814,7 @@
                 "comment": "中京・ダートでの1着～5着及び着外(6着以下)の回数",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 73,
@@ -13846,7 +13846,7 @@
                 "comment": "京都・ダートでの1着～5着及び着外(6着以下)の回数",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 74,
@@ -13878,7 +13878,7 @@
                 "comment": "阪神・ダートでの1着～5着及び着外(6着以下)の回数",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 75,
@@ -13910,7 +13910,7 @@
                 "comment": "小倉・ダートでの1着～5着及び着外(6着以下)の回数",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 76,
@@ -13942,7 +13942,7 @@
                 "comment": "札幌・障害での1着～5着及び着外(6着以下)の回数",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 77,
@@ -13974,7 +13974,7 @@
                 "comment": "函館・障害での1着～5着及び着外(6着以下)の回数",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 78,
@@ -14006,7 +14006,7 @@
                 "comment": "福島・障害での1着～5着及び着外(6着以下)の回数",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 79,
@@ -14038,7 +14038,7 @@
                 "comment": "新潟・障害での1着～5着及び着外(6着以下)の回数",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 80,
@@ -14070,7 +14070,7 @@
                 "comment": "東京・障害での1着～5着及び着外(6着以下)の回数",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 81,
@@ -14102,7 +14102,7 @@
                 "comment": "中山・障害での1着～5着及び着外(6着以下)の回数",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 82,
@@ -14134,7 +14134,7 @@
                 "comment": "中京・障害での1着～5着及び着外(6着以下)の回数",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 83,
@@ -14166,7 +14166,7 @@
                 "comment": "京都・障害での1着～5着及び着外(6着以下)の回数",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 84,
@@ -14198,7 +14198,7 @@
                 "comment": "阪神・障害での1着～5着及び着外(6着以下)の回数",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 85,
@@ -14230,7 +14230,7 @@
                 "comment": "小倉・障害での1着～5着及び着外(6着以下)の回数",
                 "sub_columns_info": {
                     "repeats": 6,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 86,
@@ -14262,7 +14262,7 @@
                 "comment": "逃げ回数、先行回数、差し回数、追込回数を設定\n過去出走レースの脚質を判定しカウントしたもの(中央レースのみ)",
                 "sub_columns_info": {
                     "repeats": 4,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 87,
@@ -14308,7 +14308,7 @@
                 "comment": "本年・累計の順に設定",
                 "sub_columns_info": {
                     "repeats": 2,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "repeat_suffix_rule": [
                         "current",
                         "cumulative"
@@ -14402,7 +14402,7 @@
                             "comment": "1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 91,
@@ -14435,7 +14435,7 @@
                             "comment": "1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 91,
@@ -14468,7 +14468,7 @@
                             "comment": "1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 91,
@@ -14501,7 +14501,7 @@
                             "comment": "芝･1200M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 91,
@@ -14534,7 +14534,7 @@
                             "comment": "芝･1201Ｍ以上1400M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 91,
@@ -14567,7 +14567,7 @@
                             "comment": "芝･1401Ｍ以上1600M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 91,
@@ -14600,7 +14600,7 @@
                             "comment": "芝･1601Ｍ以上1800M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 91,
@@ -14633,7 +14633,7 @@
                             "comment": "芝･1801Ｍ以上2000M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 91,
@@ -14666,7 +14666,7 @@
                             "comment": "芝･2001Ｍ以上2200M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 91,
@@ -14699,7 +14699,7 @@
                             "comment": "芝･2201Ｍ以上2400M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 91,
@@ -14732,7 +14732,7 @@
                             "comment": "芝･2401Ｍ以上2800M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 91,
@@ -14765,7 +14765,7 @@
                             "comment": "芝･2801Ｍ以上での1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 91,
@@ -14798,7 +14798,7 @@
                             "comment": "ダート･1200M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 91,
@@ -14831,7 +14831,7 @@
                             "comment": "ダート･1201Ｍ以上1400M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 91,
@@ -14864,7 +14864,7 @@
                             "comment": "ダート･1401Ｍ以上1600M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 91,
@@ -14897,7 +14897,7 @@
                             "comment": "ダート･1601Ｍ以上1800M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 91,
@@ -14930,7 +14930,7 @@
                             "comment": "ダート･1801Ｍ以上2000M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 91,
@@ -14963,7 +14963,7 @@
                             "comment": "ダート･2001Ｍ以上2200M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 91,
@@ -14996,7 +14996,7 @@
                             "comment": "ダート･2201Ｍ以上2400M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 91,
@@ -15029,7 +15029,7 @@
                             "comment": "ダート･2401Ｍ以上2800M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 91,
@@ -15062,7 +15062,7 @@
                             "comment": "ダート･2801Ｍ以上での1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 91,
@@ -15095,7 +15095,7 @@
                             "comment": "札幌・芝での1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 91,
@@ -15128,7 +15128,7 @@
                             "comment": "函館・芝での1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 91,
@@ -15161,7 +15161,7 @@
                             "comment": "福島・芝での1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 91,
@@ -15194,7 +15194,7 @@
                             "comment": "新潟・芝での1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 91,
@@ -15227,7 +15227,7 @@
                             "comment": "東京・芝での1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 91,
@@ -15260,7 +15260,7 @@
                             "comment": "中山・芝での1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 91,
@@ -15293,7 +15293,7 @@
                             "comment": "中京・芝での1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 91,
@@ -15326,7 +15326,7 @@
                             "comment": "京都・芝での1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 91,
@@ -15359,7 +15359,7 @@
                             "comment": "阪神・芝での1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 91,
@@ -15392,7 +15392,7 @@
                             "comment": "小倉・芝での1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 91,
@@ -15425,7 +15425,7 @@
                             "comment": "札幌・ダートでの1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 91,
@@ -15458,7 +15458,7 @@
                             "comment": "函館・ダートでの1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 91,
@@ -15491,7 +15491,7 @@
                             "comment": "福島・ダートでの1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 91,
@@ -15524,7 +15524,7 @@
                             "comment": "新潟・ダートでの1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 91,
@@ -15557,7 +15557,7 @@
                             "comment": "東京・ダートでの1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 91,
@@ -15590,7 +15590,7 @@
                             "comment": "中山・ダートでの1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 91,
@@ -15623,7 +15623,7 @@
                             "comment": "中京・ダートでの1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 91,
@@ -15656,7 +15656,7 @@
                             "comment": "京都・ダートでの1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 91,
@@ -15689,7 +15689,7 @@
                             "comment": "阪神・ダートでの1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 91,
@@ -15722,7 +15722,7 @@
                             "comment": "小倉・ダートでの1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 91,
@@ -15755,7 +15755,7 @@
                             "comment": "札幌・障害での1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 91,
@@ -15788,7 +15788,7 @@
                             "comment": "函館・障害での1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 91,
@@ -15821,7 +15821,7 @@
                             "comment": "福島・障害での1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 91,
@@ -15854,7 +15854,7 @@
                             "comment": "新潟・障害での1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 91,
@@ -15887,7 +15887,7 @@
                             "comment": "東京・障害での1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 91,
@@ -15920,7 +15920,7 @@
                             "comment": "中山・障害での1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 91,
@@ -15953,7 +15953,7 @@
                             "comment": "中京・障害での1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 91,
@@ -15986,7 +15986,7 @@
                             "comment": "京都・障害での1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 91,
@@ -16019,7 +16019,7 @@
                             "comment": "阪神・障害での1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 91,
@@ -16052,7 +16052,7 @@
                             "comment": "小倉・障害での1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 91,
@@ -16100,7 +16100,7 @@
                 "comment": "本年・累計の順に設定",
                 "sub_columns_info": {
                     "repeats": 2,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "repeat_suffix_rule": [
                         "current",
                         "cumulative"
@@ -16194,7 +16194,7 @@
                             "comment": "1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 94,
@@ -16227,7 +16227,7 @@
                             "comment": "1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 94,
@@ -16260,7 +16260,7 @@
                             "comment": "1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 94,
@@ -16293,7 +16293,7 @@
                             "comment": "芝･1200M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 94,
@@ -16326,7 +16326,7 @@
                             "comment": "芝･1201Ｍ以上1400M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 94,
@@ -16359,7 +16359,7 @@
                             "comment": "芝･1401Ｍ以上1600M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 94,
@@ -16392,7 +16392,7 @@
                             "comment": "芝･1601Ｍ以上1800M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 94,
@@ -16425,7 +16425,7 @@
                             "comment": "芝･1801Ｍ以上2000M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 94,
@@ -16458,7 +16458,7 @@
                             "comment": "芝･2001Ｍ以上2200M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 94,
@@ -16491,7 +16491,7 @@
                             "comment": "芝･2201Ｍ以上2400M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 94,
@@ -16524,7 +16524,7 @@
                             "comment": "芝･2401Ｍ以上2800M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 94,
@@ -16557,7 +16557,7 @@
                             "comment": "芝･2801Ｍ以上での1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 94,
@@ -16590,7 +16590,7 @@
                             "comment": "ダート･1200M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 94,
@@ -16623,7 +16623,7 @@
                             "comment": "ダート･1201Ｍ以上1400M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 94,
@@ -16656,7 +16656,7 @@
                             "comment": "ダート･1401Ｍ以上1600M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 94,
@@ -16689,7 +16689,7 @@
                             "comment": "ダート･1601Ｍ以上1800M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 94,
@@ -16722,7 +16722,7 @@
                             "comment": "ダート･1801Ｍ以上2000M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 94,
@@ -16755,7 +16755,7 @@
                             "comment": "ダート･2001Ｍ以上2200M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 94,
@@ -16788,7 +16788,7 @@
                             "comment": "ダート･2201Ｍ以上2400M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 94,
@@ -16821,7 +16821,7 @@
                             "comment": "ダート･2401Ｍ以上2800M以下での1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 94,
@@ -16854,7 +16854,7 @@
                             "comment": "ダート･2801Ｍ以上での1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 94,
@@ -16887,7 +16887,7 @@
                             "comment": "札幌・芝での1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 94,
@@ -16920,7 +16920,7 @@
                             "comment": "函館・芝での1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 94,
@@ -16953,7 +16953,7 @@
                             "comment": "福島・芝での1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 94,
@@ -16986,7 +16986,7 @@
                             "comment": "新潟・芝での1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 94,
@@ -17019,7 +17019,7 @@
                             "comment": "東京・芝での1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 94,
@@ -17052,7 +17052,7 @@
                             "comment": "中山・芝での1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 94,
@@ -17085,7 +17085,7 @@
                             "comment": "中京・芝での1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 94,
@@ -17118,7 +17118,7 @@
                             "comment": "京都・芝での1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 94,
@@ -17151,7 +17151,7 @@
                             "comment": "阪神・芝での1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 94,
@@ -17184,7 +17184,7 @@
                             "comment": "小倉・芝での1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 94,
@@ -17217,7 +17217,7 @@
                             "comment": "札幌・ダートでの1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 94,
@@ -17250,7 +17250,7 @@
                             "comment": "函館・ダートでの1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 94,
@@ -17283,7 +17283,7 @@
                             "comment": "福島・ダートでの1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 94,
@@ -17316,7 +17316,7 @@
                             "comment": "新潟・ダートでの1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 94,
@@ -17349,7 +17349,7 @@
                             "comment": "東京・ダートでの1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 94,
@@ -17382,7 +17382,7 @@
                             "comment": "中山・ダートでの1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 94,
@@ -17415,7 +17415,7 @@
                             "comment": "中京・ダートでの1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 94,
@@ -17448,7 +17448,7 @@
                             "comment": "京都・ダートでの1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 94,
@@ -17481,7 +17481,7 @@
                             "comment": "阪神・ダートでの1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 94,
@@ -17514,7 +17514,7 @@
                             "comment": "小倉・ダートでの1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 94,
@@ -17547,7 +17547,7 @@
                             "comment": "札幌・障害での1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 94,
@@ -17580,7 +17580,7 @@
                             "comment": "函館・障害での1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 94,
@@ -17613,7 +17613,7 @@
                             "comment": "福島・障害での1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 94,
@@ -17646,7 +17646,7 @@
                             "comment": "新潟・障害での1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 94,
@@ -17679,7 +17679,7 @@
                             "comment": "東京・障害での1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 94,
@@ -17712,7 +17712,7 @@
                             "comment": "中山・障害での1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 94,
@@ -17745,7 +17745,7 @@
                             "comment": "中京・障害での1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 94,
@@ -17778,7 +17778,7 @@
                             "comment": "京都・障害での1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 94,
@@ -17811,7 +17811,7 @@
                             "comment": "阪神・障害での1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 94,
@@ -17844,7 +17844,7 @@
                             "comment": "小倉・障害での1着～5着及び着外(6着以下)の回数",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 94,
@@ -17892,7 +17892,7 @@
                 "comment": "本年・累計の順に設定",
                 "sub_columns_info": {
                     "repeats": 2,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "repeat_suffix_rule": [
                         "current",
                         "cumulative"
@@ -17956,7 +17956,7 @@
                             "comment": "1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 98,
@@ -18004,7 +18004,7 @@
                 "comment": "本年・累計の順に設定",
                 "sub_columns_info": {
                     "repeats": 2,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "repeat_suffix_rule": [
                         "current",
                         "cumulative"
@@ -18068,7 +18068,7 @@
                             "comment": "1着～5着及び着外(6着以下)の回数（中央のみ)",
                             "sub_columns_info": {
                                 "repeats": 6,
-                                "repat_item_handling": "横持ち",
+                                "repeat_item_handling": "横持ち",
                                 "sub_columns": [
                                     {
                                         "seq": 102,
@@ -18397,7 +18397,7 @@
                 "comment": "同着を考慮し繰返し3回",
                 "sub_columns_info": {
                     "repeats": 3,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 22,
@@ -19068,7 +19068,7 @@
                 "padding_character": "",
                 "sub_columns_info": {
                     "repeats": 3,
-                    "repat_item_handling": "別テーブル",
+                    "repeat_item_handling": "別テーブル",
                     "sub_columns": [
                         {
                             "seq": 10,
@@ -19604,7 +19604,7 @@
                 "padding_character": "",
                 "sub_columns_info": {
                     "repeats": 18,
-                    "repat_item_handling": "別テーブル",
+                    "repeat_item_handling": "別テーブル",
                     "sub_columns": [
                         {
                             "seq": 11,
@@ -19826,7 +19826,7 @@
                 "padding_character": "",
                 "sub_columns_info": {
                     "repeats": 18,
-                    "repat_item_handling": "別テーブル",
+                    "repeat_item_handling": "別テーブル",
                     "sub_columns": [
                         {
                             "seq": 11,
@@ -19943,7 +19943,7 @@
                 "comment": "重勝式対象レースを設定",
                 "sub_columns_info": {
                     "repeats": 5,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 7,
@@ -20033,7 +20033,7 @@
                 "padding_character": "",
                 "sub_columns_info": {
                     "repeats": 5,
-                    "repat_item_handling": "横持ち",
+                    "repeat_item_handling": "横持ち",
                     "sub_columns": [
                         {
                             "seq": 10,
@@ -20134,7 +20134,7 @@
                 "padding_character": "",
                 "sub_columns_info": {
                     "repeats": 243,
-                    "repat_item_handling": "別テーブル",
+                    "repeat_item_handling": "別テーブル",
                     "sub_columns": [
                         {
                             "seq": 16,
@@ -20957,7 +20957,7 @@
                 "padding_character": "",
                 "sub_columns_info": {
                     "repeats": 18,
-                    "repat_item_handling": "別テーブル",
+                    "repeat_item_handling": "別テーブル",
                     "sub_columns": []
                 }
             }

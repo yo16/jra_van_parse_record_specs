@@ -132,7 +132,7 @@ def parse_one_line_simple(row):
     # AA列: NotNull
     db_column_notnull = row[convert_to_index("AA")]
     # AB列: 繰返対応方法
-    repat_item_handling = row[convert_to_index("AB")]
+    repeat_item_handling = row[convert_to_index("AB")]
     # AC列: 横持ちsuffix（横持ちの場合のsuffix指定）
     repeat_suffix_rule = row[convert_to_index("AC")]
 
@@ -152,7 +152,7 @@ def parse_one_line_simple(row):
         "db_column_size1": db_column_size1,
         "db_column_size2": db_column_size2,
         "db_column_notnull": db_column_notnull,
-        "repat_item_handling": repat_item_handling,
+        "repeat_item_handling": repeat_item_handling,
         "repeat_suffix_rule": repeat_suffix_rule,
     }
 
@@ -211,7 +211,7 @@ def check_input(simple_obj):
     assert simple_obj["db_column_size1"] is not None, "サイズ1が取得できません"
     #assert simple_obj["db_column_size2"] is not None, "サイズ2が取得できません"
     #assert simple_obj["db_column_notnull"] is not None, "NotNullが取得できません"
-    #assert simple_obj["repat_item_handling"] is not None, "繰返対応方法が取得できません"
+    #assert simple_obj["repeat_item_handling"] is not None, "繰返対応方法が取得できません"
     #assert simple_obj["repeat_suffix_rule"] is not None, "横持ちsuffixが取得できません"
 
     # 複合項目
@@ -219,7 +219,7 @@ def check_input(simple_obj):
     repeats = get_value(simple_obj["repeats"], simple_obj["repeats"], 0)
     if repeats > 0:
         assert simple_obj["bytes_total"] == simple_obj["bytes"] * simple_obj["repeats"], "合計バイト数の計算が一致しません"
-        assert simple_obj["repat_item_handling"] is not None, "繰返対応方法が取得できません"
+        assert simple_obj["repeat_item_handling"] is not None, "繰返対応方法が取得できません"
         # seq、sub_seqの両方があるときは、データ型が必要
         if (simple_obj["seq"] is not None) and (simple_obj["sub_seq"] is not None):
             assert simple_obj["db_column_type"] is not None, "データ型が取得できません"
@@ -278,7 +278,7 @@ def convert_to_basic_obj(simple_obj):
     # NotNull
     db_column_notnull = get_value(simple_obj["db_column_notnull"], True, False)
     # 繰返対応方法
-    repat_item_handling = get_value(simple_obj["repat_item_handling"], simple_obj["repat_item_handling"], "")
+    repeat_item_handling = get_value(simple_obj["repeat_item_handling"], simple_obj["repeat_item_handling"], "")
     # 横持ちsuffix
     repeat_suffix_rule = get_value(simple_obj["repeat_suffix_rule"], simple_obj["repeat_suffix_rule"], "")
     if repeat_suffix_rule != "":
@@ -301,7 +301,7 @@ def convert_to_basic_obj(simple_obj):
         "db_column_type": db_column_type,  # str
         "db_column_length": db_column_length,  # int or list
         "db_column_notnull": db_column_notnull,  # bool
-        "repat_item_handling": repat_item_handling,  # str
+        "repeat_item_handling": repeat_item_handling,  # str
         "repeat_suffix_rule": repeat_suffix_rule,  # list
     }
 
@@ -385,7 +385,7 @@ def create_column_info_single_repeats(basic_obj, cur_column_info = None):
     # サブカラムの情報
     sub_columns_info = {}
     sub_columns_info["repeats"] = basic_obj["repeats"]
-    sub_columns_info["repat_item_handling"] = basic_obj["repat_item_handling"]
+    sub_columns_info["repeat_item_handling"] = basic_obj["repeat_item_handling"]
     if basic_obj["repeat_suffix_rule"] != []:
         sub_columns_info["repeat_suffix_rule"] = basic_obj["repeat_suffix_rule"]
     sub_columns_info["sub_columns"] = []
@@ -425,7 +425,7 @@ def create_column_info_repeat_start(basic_obj):
     # サブカラムの情報
     sub_columns_info = {}
     sub_columns_info["repeats"] = basic_obj["repeats"]
-    sub_columns_info["repat_item_handling"] = basic_obj["repat_item_handling"]
+    sub_columns_info["repeat_item_handling"] = basic_obj["repeat_item_handling"]
     if basic_obj["repeat_suffix_rule"] != []:
         sub_columns_info["repeat_suffix_rule"] = basic_obj["repeat_suffix_rule"]
     sub_columns_info["sub_columns"] = []    # この時点では空
